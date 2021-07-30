@@ -40,7 +40,7 @@ void Graph:: belmanFord(int v){
     map<int ,int> freq;
     map<int,int> path;
     queue<int> q;
-    unordered_map<int,int> distance;
+    unordered_map< int,int > distance;
     int newDistance;
     for(int i=0;i<num;i++){
         distance[i]=INT_MAX;

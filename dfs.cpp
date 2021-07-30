@@ -22,7 +22,7 @@ void Graph:: addEdge(int u,int v){
 void Graph:: printGraph(){
      for(int i=0;i<numOfVertex;i++){
         cout<<i;
-        for(auto x: arr[i]){
+        for(auto x : arr[i] ){
             cout<<"->"<<x;
         }
         cout<<endl;
