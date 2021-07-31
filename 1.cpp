@@ -39,9 +39,7 @@ void dsfUtil(vector<int> arr[], int n, bool visited[], int v) {\
             dsfUtil(arr, n, visited, arr[v][i]);
         }
     }
-
     cout<<v<<" ";
-
 }
 void dfs(vector<int> arr[], int n){
     bool visited[n];
